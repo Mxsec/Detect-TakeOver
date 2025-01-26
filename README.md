@@ -18,7 +18,7 @@ Follow these steps to install and set up the **Detect TakeOver Tool**:
 Start by cloning the repository from GitHub
 
 ```bash
-git clone https://github.com/<your-username>/detect-takeover.git
+git clone https://github.com/Mxsec/Detect-TakeOver.git
 cd detect-takeover
 ```
 
