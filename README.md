@@ -22,13 +22,15 @@ git clone https://github.com/<your-username>/detect-takeover.git
 cd detect-takeover
 ```
 
+### 2. Set Up a Virtual Environment
+
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate  # On Linux/Mac
 myenv\Scripts\activate     # On Windows
 ```
 
-### 2. Install the Dependencies
+### 3. Install the Dependencies
 
 Make sure you have Python 3.6 or higher installed and install the dependencies:
 
