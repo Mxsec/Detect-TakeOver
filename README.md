@@ -88,9 +88,9 @@ python3 detect_takeover.py -h
 
                       === Detect TakeOver Tool ===
 
-[INFO] Checking one.example.com
+[INFO] Checking test.example.com
 [ALERT] Vulnerable provider detected: Azure (Websites) (azurewebsites.net)
-[SUCCESS] Potential takeover detected: one.example.com
+[SUCCESS] Potential takeover detected: test.example.com
 ```
 
 
