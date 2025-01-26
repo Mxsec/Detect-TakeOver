@@ -75,8 +75,12 @@ View Help
 python3 detect_takeover.py -h
 ```
 
-Output Example
 
+#### **Output Example**
+```markdown
+## Output Example
+
+```plaintext
 ████████╗ █████╗ ██╗  ██╗███████╗     ██████╗ ██╗   ██╗███████╗██████╗  
 ╚══██╔══╝██╔══██╗██║ ██╔╝██╔════╝    ██╔═══██╗██║   ██║██╔════╝██╔══██╗ 
    ██║   ███████║█████╔╝ █████╗      ██║   ██║██║   ██║█████╗  ██████╔╝ 
@@ -86,9 +90,10 @@ Output Example
 
                       === Detect TakeOver Tool ===
 
-[INFO] Checking test.example.com
+[INFO] Checking one.example.com
 [ALERT] Vulnerable provider detected: Azure (Websites) (azurewebsites.net)
-[SUCCESS] Potential takeover detected: test.example.com
+[SUCCESS] Potential takeover detected: one.example.com
+```
 
 
 Vulnerable Providers
