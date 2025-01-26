@@ -12,16 +12,28 @@
 
 ## Installation
 
-### 1. Clone the Repository
+Follow these steps to install and set up the **Detect TakeOver Tool**:
 
-git clone https://github.com/<seu-usuario>/detect-takeover.git
+### 1. Clone the Repository
+Start by cloning the repository from GitHub:
+```bash
+git clone https://github.com/<your-username>/detect-takeover.git
 cd detect-takeover
+
+python3 -m venv myenv
+source myenv/bin/activate  # On Linux/Mac
+myenv\Scripts\activate     # On Windows
 
 ### 2. Install the Dependencies
 
 Make sure you have Python 3.6 or higher installed and install the dependencies:
 
 pip install -r requirements.txt
+
+This installs:
+
+requests: For HTTP requests to verify subdomain status.
+dnspython: For DNS queries to identify CNAME records.
 
 Usage
 
@@ -60,7 +72,7 @@ Output Example
 [SUCCESS] Potential takeover detected: test.example.com
 
 
-LVulnerable Providers
+Vulnerable Providers
 The tool already has an internal list of vulnerable providers based on reliable sources such as the can-i-take-over-xyz project. This list is constantly updated to include the most relevant providers known to be susceptible to subdomain takeover attacks.
 
 How it works
