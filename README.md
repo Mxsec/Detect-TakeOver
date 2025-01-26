@@ -15,20 +15,26 @@
 Follow these steps to install and set up the **Detect TakeOver Tool**:
 
 ### 1. Clone the Repository
-Start by cloning the repository from GitHub:
+Start by cloning the repository from GitHub
+
 ```bash
 git clone https://github.com/<your-username>/detect-takeover.git
 cd detect-takeover
+```
 
+```bash
 python3 -m venv myenv
 source myenv/bin/activate  # On Linux/Mac
 myenv\Scripts\activate     # On Windows
+```
 
 ### 2. Install the Dependencies
 
 Make sure you have Python 3.6 or higher installed and install the dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 This installs:
 
@@ -37,24 +43,35 @@ dnspython: For DNS queries to identify CNAME records.
 
 Usage
 
-Para Verificar um Subdomínio Específico
+To Check a Specific Subdomain
+
+```bash
 python3 detect_takeover.py -d <subdomain>
+```
 
-Example 
+Example
 
+```bash
 python3 detect_takeover.py -d example.com
+```
 
 To Check a List of Subdomains
 
+```bash
 python3 detect_takeover.py -l <file>
+```
 
 Example 
 
+```bash
 python3 detect_takeover.py -l subdomains.txt
+```
 
 View Help
 
+```bash
 python3 detect_takeover.py -h
+```
 
 Output Example
 
